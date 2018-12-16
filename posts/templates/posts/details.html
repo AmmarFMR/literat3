@@ -10,5 +10,6 @@
         {{ post.created_at }}
     </div>
 </div>
+<a href='/user_details/{{ post.author.id }}' class="btn">Author</a>
 <a href="/posts" class="btn">Go Back</a>
 {% endblock %}
